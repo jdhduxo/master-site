@@ -1,0 +1,11 @@
+@import url("https://use.typekit.net/div0lsg.css");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-snap-type: y mandatory;
+    font-family: proxima-nova, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    margin: 0;
+}

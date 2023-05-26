@@ -1,0 +1,32 @@
+@import url("https://use.typekit.net/div0lsg.css");
+
+.introduction-container {
+    scroll-snap-align: start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/background-left.png');
+    background-repeat: no-repeat;
+    background-position: 0% 35%;
+}
+
+.heading-underline {
+    width: 110px;
+    border-top: 3px solid #FFD900;
+}
+
+.introduction-container > .section-text {
+    max-width: 90%;
+    margin: 1em 0;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.introduction-container > .section-text.introduction-heading {
+    font-weight: 500;
+    font-size: 2em;
+    margin: -0.4em;
+}

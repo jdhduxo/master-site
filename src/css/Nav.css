@@ -1,0 +1,70 @@
+@import url("https://use.typekit.net/div0lsg.css");
+
+.nav {
+    height: 27vh;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-container > .nav-logo-container > .nav-logo {
+    width: 10em;
+    margin-top: 1em;
+}
+
+.nav-container > .nav-cta-container {
+    min-width: 35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container > .nav-cta-container > .nav-cta {
+    min-width: 35%;
+    height: 2.25em;
+    margin: 0.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #373A36;
+    font-family: proxima-nova, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.nav-container > .nav-cta-container > .nav-cta.get-in-touch-cta {
+    min-width: 25%;
+    border: none;
+    border-radius: 10em;
+    background: #FFD900;
+    padding: 0 10px;
+}
+
+.header-container > .nav-cta:hover {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav {
+        height: 9vh;
+    }
+    
+    .nav-container {
+        flex-direction: row;
+    }    
+
+    .nav-container > .nav-cta-container {
+        flex-direction: row;
+    }
+}
+

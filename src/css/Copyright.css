@@ -1,0 +1,11 @@
+.copyright-container {
+    max-width: 90%;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 0.9em;
+    transform: translateY(310px);
+    text-align: center;
+}

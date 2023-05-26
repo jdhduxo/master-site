@@ -1,0 +1,49 @@
+@import url("https://use.typekit.net/div0lsg.css");
+
+.learn-more-container {
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url('../assets/background-left.png');
+    background-repeat: no-repeat;
+    background-position: 0% -45%;
+    transform: scaleX(-1);
+}
+
+.learn-more-content {
+    max-width: 90%;
+    margin: 0 10%;
+    transform: scaleX(-1);
+}
+
+.learn-more-container > .learn-more-content > .learn-more-heading {
+    font-size: 3em;
+}
+
+.learn-more-container > .learn-more-content > .learn-more-cta {
+    width: 135px;
+    height: 2.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #373A36;
+    border: none;
+    border-radius: 10em;
+    background: #FFD900;
+    margin: 0.5em 0;
+}
+
+.learn-more-container > .learn-more-cta:hover {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .learn-more-container > .learn-more-content > .learn-more-heading {
+        font-size: 4em;
+    }
+}
